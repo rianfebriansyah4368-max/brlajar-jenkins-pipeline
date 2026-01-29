@@ -177,6 +177,6 @@ if exist "%HOME%\mavenrc_post.cmd" call "%HOME%\mavenrc_post.cmd"
 @REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
 if "%MAVEN_BATCH_PAUSE%" == "on" pause
 
-if "%MAVEN_TERMINATE_CMD%" == "on" exit %ERROR_CODE%
+if "%MAVEN_NATE_CMD%" == "on" exit %ERROR_CODE%
 
 exit /B %ERROR_CODE%
