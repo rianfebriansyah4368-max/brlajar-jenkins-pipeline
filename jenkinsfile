@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo("hello build 1")
                 echo("hello build 2")
-                echo("hello build 3")
+                echo("hello build 4")
             }
         }
 
