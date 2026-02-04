@@ -28,16 +28,16 @@ pipeline {
     }
     post {
         always {
-            bagol "1 will always say hello riannnnnn"
+            echo "halo teman teman perkenalkan nama saya rian ganteng"
         }
         success {
-            echo "yeay,success"
+            echo "yeay, pipeline berhasill boss"
         }
         failure {
-            echo "oh no, failure"
+            echo "yahh, pipeline gagal"
         }
         cleanup {
-            echo "don't care success or error"
+            echo "Bersih-bersih setelah proses selesai (berhasil atau gagal)"
         }
     }
 }
