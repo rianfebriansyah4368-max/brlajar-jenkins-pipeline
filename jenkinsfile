@@ -1,5 +1,5 @@
 pipeline {
-    agant {
+    agent {
         node {
             label "linux && java11"
         }
@@ -28,7 +28,7 @@ pipeline {
     }
     post {
         always {
-            echo "1 will always say hello riannnnnn"
+            bagol "1 will always say hello riannnnnn"
         }
         success {
             echo "yeay,success"
